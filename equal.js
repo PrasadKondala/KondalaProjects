@@ -1,14 +1,10 @@
-const  num1=10
-const num2=10
+// Define two variables
+let a = 5;
+let b = 5;
 
-const isEqual=num1==num2;
-const isNotEqual=num1 !=num2;
-
-console.log('Are they equal? ${isEqual}');
-console.log('Are they  not equal? ${isNotEqual}');
-
-const isTrue= true;
-const isFalse=false;
-
-console.log('istrue is${isTrue}');
-console.log('isFalse is${isFalse}');
+// Check if the values are equal
+if (a == b) {
+  console.log("The values are equal");
+} else {
+  console.log("The values are not equal");
+}
